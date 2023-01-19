@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0a4991b62f.js"
+   crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h3 style="text-align: center; text-transform: capitalize;">30 minutes pomodoro</h3>
+        <br><br>
+        <div class="panels">
+            <p id="study" class="active">study</p>
+            <p id="break">break</p>
+        </div>
+        <br><br>
+
+        <div class="timer">
+                <div class="s1">
+                    <span id="minutes">30</span>
+                    <span>:</span>
+                    <span id="seconds">00</span>
+                </div>
+        </div><br><br>
+
+        <div class="controls" style="text-align: center;">
+            <i class="fa-solid fa-play" id="play"></i>
+            <i class="fa-solid fa-rotate-right hide" id="reset"></i>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
