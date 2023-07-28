@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins";
+  background-color: #2b2730;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-img {
+  width: 25px;
+  height: 25px;
+}
+
+.main-content {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar p {
+  font-size: 0.9rem;
+}
+
+.main-content h2 {
+  font-size: 2.3rem;
+}
+
+span {
+  color: #e966a0;
+}
+
+.purple {
+  color: #9575de;
+}
+
+.main-content p {
+  font-size: 0.9rem;
+}
+
+.footer {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 30px;
+}
+
+button {
+  color: white;
+  background-color: gray;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+input {
+  padding: 5px;
+}
+
+.song-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.song-img {
+  width: 100px;
+  height: 100px;
+}
+
+.song-text h3 {
+  font-size: 0.85rem;
+}
+
+.song-text p {
+  font-size: 0.7rem;
+  color: #9575de;
+}
+
+.song-link {
+  color: gray;
+  text-decoration: none;
+  font-size: 0.65rem;
+}
